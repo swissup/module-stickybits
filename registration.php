@@ -1,7 +1,7 @@
 <?php
+/**
+ * @package Swissup_Stickybits
+ */
+use \Magento\Framework\Component\ComponentRegistrar;
 
-\Magento\Framework\Component\ComponentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Swissup_Stickybits',
-    __DIR__
-);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Swissup_Stickybits', __DIR__);
